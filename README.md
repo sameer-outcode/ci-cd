@@ -69,11 +69,13 @@ Finally workflows is created where both jobs are run sequentially.
 * Inorder to deploy to production, `Capistrano` gem has been used which is a deployment tool. 
 * In order to push to production or for the connectivity with remote server, you need to add ssh keys of your local machine on circleCI.
     * Go to Project Settings.
-![2023-03-13_15-45.png](..%2FDesktop%2F2023-03-13_15-45.png)
-  * Go to Add SSH and add your private key via which you are authorized to the remote server.
-![2023-03-13_15-47.png](..%2FDesktop%2F2023-03-13_15-47.png)
 
-![2023-03-13_15-48.png](..%2FDesktop%2F2023-03-13_15-48.png)
+  * Go to Add SSH and add your private key via which you are authorized to the remote server.
+![2023-03-13_15-45](https://user-images.githubusercontent.com/119847372/224678040-d92ef4d1-4873-4917-a016-5cdeee455b9a.png)
+
+![2023-03-13_15-47](https://user-images.githubusercontent.com/119847372/224678114-dc45f760-c7a4-4b16-9da6-ad20c91c68e9.png)
+
+![2023-03-13_15-48](https://user-images.githubusercontent.com/119847372/224678147-bf33c863-7322-4236-926e-aa2d0e7104b5.png)
 
 ## Github Actions 
 Additionally you can use github actions instead of circleCI to for CI/CD. 
